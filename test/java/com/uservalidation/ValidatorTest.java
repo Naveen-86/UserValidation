@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 
 public class ValidatorTest {
     @Test
-    void givenFirstName_itIsValid_returnTrue() {
+    void givenLastName_itIsValid_returnTrue() {
         Validator validator = new Validator();
-        boolean status = validator.validateFirstName("Bridgelabz");
+        boolean status = validator.validateLastName("Labz");
         Assertions.assertEquals(true,status);
     }
 }
